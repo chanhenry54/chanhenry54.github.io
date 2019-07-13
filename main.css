@@ -1,10 +1,10 @@
 body {
+    font-family: "Helvetica", "Arial", "Sans-Serif";
     margin: 60px auto;
     width: 70%;
 }
 
 nav ul {
-    font-family: "Helvetica", "Arial", "Sans-Serif";
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -17,7 +17,7 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #C1C8E4;
 }
 
 a:hover {
@@ -25,11 +25,16 @@ a:hover {
 }
 
 h1 {
+    color: #5AB9EA;
     font-size: 3em;
-    font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+
+h2 {
+    color: #84CEEB;
 }
 
 p {
+    font-family
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
