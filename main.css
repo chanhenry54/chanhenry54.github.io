@@ -37,7 +37,10 @@ h3 {
 }
 
 nav {
+    align-items: center;
     background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,13 +50,12 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-nav ul li {
-    float: right;
 }
 
 nav ul li a {
@@ -84,17 +86,16 @@ section {
 }
 
 .nav-name {
-    float: left;
-}
-
-.nav-name a {
     color: rgb(86, 117, 240);
+    display: inline-block;
     font-size: 2em;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 .row {
     display: flex;
+    margin: 20px auto;
 }
 
 .col {
