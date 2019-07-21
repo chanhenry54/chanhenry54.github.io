@@ -20,20 +20,17 @@ body {
 }
 
 header {
-    background-color: rgb(233, 252, 250);
-    border-top: 1px solid rgb(193, 200, 228);
-    border-bottom: 1px solid rgb(193, 200, 228);
-}
-
-h2 {
-    color: rgb(90, 185, 234);
-    font-size: 2em;
+    color: rgb(86, 117, 240);
     text-align: center;
 }
 
-h3 {
+h1 {
+    font-size: 2em;
+    padding: 1em;
+}
+
+h2 {
     color: rgb(51, 51, 51);
-    font-size: 1.5em;
 }
 
 nav {
@@ -66,14 +63,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-p {
-    color: rgb(100, 100, 100);
+p, ul {
+    color: rgb(75, 75, 75);
     font-weight: 500;
     line-height: 1.4em;
 }
 
 section {
-    margin-top: 65px;
+    margin-top: 20px;
 }
 
 .highlight-hover a:hover {
@@ -103,17 +100,25 @@ section {
     padding: 10px;
 }
 
+.col p, ul {
+    margin: 10px 150px;
+}
+
 #headshot {
     border-radius: 50%;
     display: block;
-    margin: 20px auto;
+    margin-top: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     height: 15em;
     width: 15em;
 }
 
 #resume-button {
-    background-color: rgb(233, 252, 250);
-    border: 1px solid rgb(193, 200, 228);
+    background-color: rgb(176, 219, 236);
+    border: 2px ridge rgb(162, 165, 175);
+    color: rgb(75, 75, 75);
     display: inline-block;
     padding: 20px 50px;
 }
