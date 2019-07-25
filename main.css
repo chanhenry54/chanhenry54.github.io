@@ -104,22 +104,16 @@ section {
     margin: 10px 150px;
 }
 
-/*
-.clearfix {
-    clear: both;
-}
-
-.clearfix:after {
-    clear: both;
-    content: "";
-    display: table;
-}
-*/
-
-.vert-align-center {
-    align-items: center;
+.project-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px auto;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
 }
 
 #headshot {
@@ -146,27 +140,39 @@ section {
 }
 
 #bobabit {
-    border: 1px solid rgb(51, 51, 51); /* temp */
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 238, 250);
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 50%;
     margin-left: 15%;
     margin-right: 20px;
-    height: 200px;
-    width: 300px;
+    height: 167px;
+    width: 250px;
 }
 
 #bobabit img {
     height: auto;
-    width: 100%;
+    width: 80%;
 }
 
 #avoidthebugs {
-    border: 1px solid rgb(51, 51, 51); /* temp */
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 238, 250);
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 50%;
     margin-left: 15%;
     margin-right: 20px;
-    height: 100px;
-    width: 300px;
+    height: 167px;
+    width: 250px;
 }
 
 #avoidthebugs img {
     height: auto;
-    width: 100%;
+    width: 95%;
 }
