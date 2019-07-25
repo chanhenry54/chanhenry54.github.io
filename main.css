@@ -69,8 +69,10 @@ p, ul {
     line-height: 1.4em;
 }
 
-section {
-    margin-top: 20px;
+section:before {
+    height: 33px;
+    content: "";
+    display: block;
 }
 
 .highlight-hover a:hover {
