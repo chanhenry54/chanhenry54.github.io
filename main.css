@@ -33,36 +33,6 @@ h2 {
     color: rgb(51, 51, 51);
 }
 
-nav {
-    align-items: center;
-    background-color: rgb(51, 51, 51);
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 66px;
-    width: 100%;
-    z-index: 9999;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    color: rgb(86, 117, 240);
-    display: block;
-    font-size: 2em;
-    padding: 22px 16px;
-    text-decoration: none;
-}
-
 p, ul {
     color: rgb(75, 75, 75);
     font-weight: 500;
@@ -76,6 +46,10 @@ section:before {
     content: "";
     display: block;
 }
+
+/*******
+Classes
+*******/
 
 .highlight-hover a:hover {
     background-color: rgb(86, 117, 240);
@@ -91,6 +65,40 @@ section:before {
     display: inline-block;
     font-size: 2em;
     padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar {
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 66px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li a {
+    color: rgb(86, 117, 240);
+    display: block;
+    font-size: 2em;
+    padding: 22px 16px;
     text-decoration: none;
 }
 
@@ -119,6 +127,10 @@ section:before {
     flex-direction: column;
     margin-right: 15%;
 }
+
+/***
+IDs
+***/
 
 #headshot {
     border-radius: 50%;
@@ -179,4 +191,35 @@ section:before {
 #avoidthebugs img {
     height: auto;
     width: 95%;
+}
+
+/*************
+Media Queries
+*************/
+
+@media screen and (max-width: 640px) {
+    .active {
+        display: block;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .navbar-toggle {
+        color: rgb(86, 117, 240);
+        cursor: pointer;
+        display: inline;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav li {
+        text-align: center;
+    }
 }
