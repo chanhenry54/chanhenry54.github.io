@@ -101,17 +101,20 @@ Classes
 }
 
 .row {
+    background-color: pink;
     display: flex;
     margin: 20px auto;
 }
 
 .col {
+    background-color: rgba(173, 215, 229, 0.5);
     flex: 1;
     padding: 10px;
 }
 
-.col p, ul {
-    margin: 10px 150px;
+.col p, .col ul {
+    background-color: lightgreen;
+    margin: 10px 25%;
 }
 
 .project-row {
@@ -195,7 +198,45 @@ IDs
 Media Queries
 *************/
 
+@media only screen and (max-width: 1140px) {
+    .col p, .col ul {
+        margin: 10px 24%;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .col p, .col ul {
+        margin: 10px 21%;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .col p, .col ul {
+        margin: 10px 18%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .col p, .col ul {
+        margin: 10px 15%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .col p, .col ul {
+        margin: 10px 12%;
+    }
+}
+
 @media only screen and (max-width: 640px) {
+    .col {
+        padding: 10px 8px;
+    }
+
+    .col p, .col ul {
+        margin: 10px 9%;
+    }
+
     .navbar, .main-nav {
         flex-direction: column;
         align-items: flex-start;
@@ -221,5 +262,35 @@ Media Queries
 
     .navbar-show {
         display: flex;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .col {
+        padding: 10px 6px;
+    }
+
+    .col p, .col ul {
+        margin: 10px 6%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .col {
+        padding: 10px 4px;
+    }
+
+    .col p, .col ul {
+        margin: 10px 3%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .col {
+        padding: 10px 2px;
+    }
+
+    .col p, .col ul {
+        margin: 10px 0;
     }
 }
