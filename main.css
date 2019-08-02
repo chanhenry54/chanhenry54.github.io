@@ -101,19 +101,16 @@ Classes
 }
 
 .row {
-    background-color: pink;
     display: flex;
     margin: 20px auto;
 }
 
 .col {
-    background-color: rgba(173, 215, 229, 0.5);
     flex: 1;
     padding: 10px;
 }
 
 .col p, .col ul {
-    background-color: lightgreen;
     margin: 10px 25%;
 }
 
