@@ -62,7 +62,7 @@ Classes
 
 .nav-name {
     color: rgb(86, 117, 240);
-    display: inline-block;
+    display: inline;
     font-size: 2em;
     padding: 14px 16px;
     text-decoration: none;
@@ -76,7 +76,6 @@ Classes
     position: fixed;
     top: 0;
     left: 0;
-    height: 66px;
     width: 100%;
     z-index: 9999;
 }
@@ -87,7 +86,6 @@ Classes
 
 .main-nav {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     list-style: none;
     margin: 0;
@@ -197,29 +195,31 @@ IDs
 Media Queries
 *************/
 
-@media screen and (max-width: 640px) {
-    .active {
-        display: block;
+@media only screen and (max-width: 640px) {
+    .navbar, .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .navbar {
-        display: block;
-    }
-
-    .navbar-toggle {
-        color: rgb(86, 117, 240);
-        cursor: pointer;
-        display: inline;
-        position: absolute;
-        top: 10px;
-        right: 20px;
+    .main-nav, .main-nav li {
+        width: 100%;
     }
 
     .main-nav {
         display: none;
     }
 
-    .main-nav li {
-        text-align: center;
+    .navbar-toggle {
+        align-self: flex-end;
+        color: rgb(86, 117, 240);
+        cursor: pointer;
+        display: initial;
+        position: absolute;
+        top: 8px;
+        right: 15px;
+    }
+
+    .navbar-show {
+        display: flex;
     }
 }
