@@ -1,6 +1,11 @@
-function classToggle() {
-    let menu = document.getElementById('js-menu');
-    menu.classList.toggle('navbar-show');
-}
+$(document).ready(function () {
+    $('.navbar-toggle').on('click', function () {
+        $('.main-nav').toggleClass('navbar-show');
+    });
 
-document.getElementById('js-toggle').addEventListener('click', classToggle);
+    $('.main-nav li').on('click', function () {
+        if ($('.main-nav').hasClass('navbar-show')) {
+            $('.main-nav').toggleClass('navbar-show');
+        }
+    });
+});
