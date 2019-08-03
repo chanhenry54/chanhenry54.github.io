@@ -140,6 +140,21 @@ Classes
     width: 250px;
 }
 
+.show-button {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: rgb(124, 126, 133);
+    cursor: pointer;
+    display: none;
+    font: inherit;
+    padding: 0;
+}
+
+.show-button:hover {
+    text-decoration: underline;
+}
+
 /***
 IDs
 ***/
@@ -156,7 +171,7 @@ IDs
 }
 
 #resume-button {
-    background-color: rgb(176, 219, 236);
+    background-color: rgb(209, 238, 250);
     border: 2px ridge rgb(162, 165, 175);
     color: rgb(75, 75, 75);
     display: inline-block;
@@ -299,6 +314,18 @@ Media Queries
 
     .col p, .col ul {
         margin: 10px 6%;
+    }
+
+    .show-button {
+        display: initial;
+    }
+
+    .fulltext {
+        display: none;
+    }
+
+    .expand-text {
+        display: initial;
     }
 }
 
