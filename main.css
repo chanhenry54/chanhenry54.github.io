@@ -54,6 +54,7 @@ Classes
 .highlight-hover a:hover {
     background-color: rgb(86, 117, 240);
     color: rgb(51, 51, 51);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .centered {
