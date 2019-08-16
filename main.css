@@ -26,7 +26,7 @@ header {
 
 h1 {
     font-size: 2em;
-    padding: 1em;
+    padding-top: 1em;
 }
 
 h2 {
@@ -103,7 +103,7 @@ Classes
 
 .row {
     display: flex;
-    margin: 20px auto;
+    margin: 40px auto 0px;
 }
 
 .col {
@@ -172,8 +172,9 @@ IDs
 }
 
 #greeting {
-    margin: auto 5%;
+    color: rgb(51, 51, 51);
     font-size: 3em;
+    margin: auto 5%;
 }
 
 #contact {
@@ -183,9 +184,15 @@ IDs
 #resume-button {
     background-color: rgb(209, 238, 250);
     border: 2px ridge rgb(162, 165, 175);
+    border-radius: 15px;
     color: rgb(75, 75, 75);
     display: inline-block;
     padding: 20px 50px;
+}
+
+#resume-button:hover {
+    background-color: rgb(183, 211, 255);
+    transition: background-color 0.3s;
 }
 
 #left-col {
