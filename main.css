@@ -171,6 +171,15 @@ IDs
     width: 15em;
 }
 
+#greeting {
+    margin: auto 5%;
+    font-size: 3em;
+}
+
+#contact {
+    font-size: 1.5em;
+}
+
 #resume-button {
     background-color: rgb(209, 238, 250);
     border: 2px ridge rgb(162, 165, 175);
@@ -306,6 +315,19 @@ Media Queries
     .navbar-show {
         display: flex;
     }
+
+    #headshot {
+        height: 12em;
+        width: 12em;
+    }
+
+    #greeting {
+        font-size: 2em;
+    }
+
+    #contact {
+        font-size: 1.4em;
+    }
 }
 
 @media only screen and (max-width: 540px) {
@@ -327,6 +349,14 @@ Media Queries
 
     .expand-text {
         display: initial;
+    }
+
+    .contact-text {
+        display: none;
+    }
+
+    #contact {
+        font-size: 3em;
     }
 }
 
