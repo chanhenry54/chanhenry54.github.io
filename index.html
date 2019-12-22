@@ -14,7 +14,8 @@
     <span class="navbar-toggle"><i class="fas fa-bars fa-3x"></i></span>
     <ul class="main-nav" id="js-menu">
       <li class="highlight-hover"><a href="#">Home</a></li>
-      <li class="highlight-hover"><a href="#About">About</a></li>
+      <li class="highlight-hover"><a href="#About">About Me</a></li>
+      <li class="highlight-hover"><a href="#Experience">Work Experience</a></li>
       <li class="highlight-hover"><a href="#Projects">Projects</a></li>
     </ul>
   </nav>
@@ -31,24 +32,34 @@
   </section>
   <section id="About">
     <header>
-      <h1>About</h1>
+      <h1>About Me</h1>
     </header>
     <div class="centered">
       <a href="https://drive.google.com/file/d/1ZZgwGsS4zkqNi--ux95cWwcFHGbaQlzZ/view?usp=sharing" target="_blank" id="resume-button">My Resume</a>
     </div>
     <div class="row">
-      <div class="col" id="left-col">
-        <p>I am currently pursuing my B.S. in Computer Science at the University of California, San Diego with expected graduation in 2022. I'm interested in pursuing a career in software engineering or game development, but I am highly open to working in different fields and experiencing new technologies.</p>
+      <div id="abouttext">
+        <p>I'm currently pursuing my B.S. in Computer Science along with a minor in Cognitive Science at the University of California, San Diego with expected graduation in 2022. I've always been a curious person, with a passion for learning about the world around me. I started learning about computer science the summer before my freshman year of college, and ever since then, I've seized as many opportunities as I can to work with new people and new technologies.</p>
+        <p>In my spare time, I love playing the flute in the UCSD Pepband, learning French, and playing video games with friends. I'm also a mentor for multiple student organizations because as much as I like learning, I'm passionate about meeting new people and supporting them in a way that leaves a positive impact on their lives.</p>
       </div>
-      <div class="col">
-        <p>I am currently familiar with the following technologies:</p>
-        <ul>
-          <li>Java</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>C/C++</li>
-          <li>HTML/CSS</li>
-        </ul>
+    </div>
+  </section>
+  <section id="Experience">
+    <header>
+      <h1>Work Experience</h1>
+    </header>
+    <div class="work-row">
+      <div class="work-image">
+        <img src="images/sdsc.png" alt="Logo for San Diego Supercomputer Center" id="sdsc">
+      </div>
+      <div class="work-text">
+        <p>Hechan Bot is an interactive bot for the popular chat application Discord that serves 600+ users. It features several text interactions in response to certain messages typed by the user, as well as some commands that allow the user to view various information about their player profile on the popular video game <i>League of Legends</i>.</p>
+        <div class="fulltext">
+          <p>I originally developed Hechan Bot as a simple bot, using JavaScript and the Discord API, to output text based on certain messages sent by users. Later on, I expanded the bot to request player information and statistics from the video game <i>League of Legends</i> through the Riot Games API and storing it by user through a MongoDB database. Currently, my goals are to implement more features and commands.</p>
+          <p>Technologies used: JavaScript, Node.js, Discord API, Riot Games API, MongoDB, Git</p>
+          <a href="https://github.com/chanhenry54/Hechan-Bot" target="_blank">Click here to see the source code.</a>
+        </div>
+        <button class="show-button"><span class="button-text">Show More</span></button>
       </div>
     </div>
   </section>

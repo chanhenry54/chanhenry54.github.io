@@ -141,6 +141,31 @@ Classes
     width: 250px;
 }
 
+.work-row {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.work-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 15%;
+}
+
+.work-image {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 25%;
+    margin-left: 15%;
+    height: 167px;
+    width: 250px;
+}
+
 .show-button {
     align-self: flex-start;
     background: none;
@@ -159,6 +184,11 @@ Classes
 /***
 IDs
 ***/
+
+#abouttext {
+    margin: 0% 20%;
+    text-align: left;
+}
 
 #headshot {
     border-radius: 50%;
@@ -195,8 +225,8 @@ IDs
     transition: background-color 0.3s;
 }
 
-#left-col {
-    border-right: 1px solid rgb(193, 200, 228);
+#sdsc {
+    height: auto;
 }
 
 #hechanbot {
