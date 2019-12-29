@@ -128,6 +128,10 @@ Classes
     margin-right: 15%;
 }
 
+.project-text h2 {
+    margin: 0px 0px 10px;
+}
+
 .project-image {
     display: flex;
     flex: none;
@@ -152,6 +156,10 @@ Classes
     flex-direction: column;
     margin-left: 20px;
     margin-right: 15%;
+}
+
+.work-text h2,h3 {
+    margin: 0px 0px 10px;
 }
 
 .work-image {
