@@ -11,13 +11,13 @@
 <body>
   <nav class="navbar">
     <a href="#" class="nav-name">Henry Chan</a>
-    <span class="navbar-toggle"><i class="fas fa-bars fa-3x"></i></span>
     <ul class="main-nav" id="js-menu">
       <li class="highlight-hover"><a href="#">Home</a></li>
       <li class="highlight-hover"><a href="#About">About Me</a></li>
       <li class="highlight-hover"><a href="#Experience">Work Experience</a></li>
       <li class="highlight-hover"><a href="#Projects">Projects</a></li>
     </ul>
+    <div class="navbar-toggle"><i class="fas fa-bars fa-3x"></i></div>
   </nav>
   <section id="Home">
     <img src="images/headshot.jpg" alt="My face" id="headshot">
@@ -52,7 +52,7 @@
       <div class="work-image">
         <img src="images/sdsc.png" alt="Logo for San Diego Supercomputer Center" id="sdsc">
       </div>
-      <div class="work-text">
+      <div class="desc-text">
         <h2>Developer Intern, San Diego Supercomputer Center</h2>
         <h3>October 2019 - Present</h3>
         <p>I currently work on the Research Data Services team, where I develop and maintain web tools used by other employees and various research clients. One project I worked on was upgrading a price estimator tool, which involved adding new estimates and the ability to save and load different estimate forms, allowing employees to provide better cost breakdowns to customers. I also enhanced the accessability of an internal workflow management tool by reducing UI clutter, refactoring user data retrieval, and removing an obsolete login system. In my work here, I frequently write unit tests and documentation guides to ensure correct functionality and help future contributors.</p>
@@ -69,7 +69,7 @@
       <div class="project-image">
         <img src="images/hechanbot.png" alt="Logo for Hechan Bot" id="hechanbot">
       </div>
-      <div class="project-text">
+      <div class="desc-text">
         <h2>Hechan Bot</h2>
         <p>Hechan Bot is an interactive bot for the popular chat application Discord that serves 600+ users. It features several text interactions in response to certain messages typed by the user, as well as some commands that allow the user to view various information about their player profile on the popular video game <i>League of Legends</i>.</p>
         <div class="fulltext">
@@ -83,7 +83,7 @@
       <div class="project-image">
         <img src="images/bobabit.png" alt="Logo for Bobabit" id="bobabit">
       </div>
-      <div class="project-text">
+      <div class="desc-text">
         <h2>Bobabit</h2>
         <p>Bobabit was developed during SD Hacks 2018 as an arcade game based on catching falling milk tea toppings in a cup. The goal of the game is to catch as many toppings as possible without losing all three lives.</p>
         <div class="fulltext">
@@ -97,7 +97,7 @@
       <div class="project-image">
         <img src="images/avoidthebugs.png" alt="Logo for Avoid the Bugs!" id="avoidthebugs">
       </div>
-      <div class="project-text">
+      <div class="desc-text">
         <h2>Avoid the Bugs!</h2>
         <p>Avoid the Bugs! was developed as a final project for the 2018 UCSD Summer Program for Incoming Students. It is a coding-themed arcade jumping game similar to the Google Chrome dinosaur game, where the player must jump over obstacles and last as long as possible.</p>
         <div class="fulltext">
@@ -108,6 +108,9 @@
       </div>
     </div>
   </section>
+  <div id="footer">
+    <div class="inner">Copyright © 2019 Henry Chan</div>
+  </div>
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
