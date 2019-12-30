@@ -8,7 +8,7 @@ html {
 }
 
 a {
-    color: rgb(51, 51, 51);
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -26,11 +26,17 @@ header {
 
 h1 {
     font-size: 2em;
-    padding-top: 1em;
+    margin: 0;
+    position: relative;
+}
+
+h1 span {
+    position: absolute;
+    top: -150px;
 }
 
 h2 {
-    color: rgb(51, 51, 51);
+    color: white;
 }
 
 p, ul {
@@ -41,8 +47,12 @@ p, ul {
     padding-bottom: 10px;
 }
 
+section {
+    padding-bottom: 84px;
+}
+
 section:before {
-    height: 33px;
+    height: 84px;
     content: "";
     display: block;
 }
@@ -62,7 +72,7 @@ Classes
 }
 
 .nav-name {
-    color: rgb(86, 117, 240);
+    color: rgb(0, 229, 195);
     display: flex;
     font-size: 2em;
     margin: auto 16px;
@@ -71,7 +81,7 @@ Classes
 
 .navbar {
     align-items: center;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(0, 52, 89);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -94,7 +104,7 @@ Classes
 }
 
 .main-nav li a {
-    color: rgb(86, 117, 240);
+    color: rgb(0, 229, 195);
     display: block;
     font-size: 2em;
     height: 100%;
@@ -150,6 +160,7 @@ Classes
     flex: none;
     align-items: center;
     justify-content: center;
+    background-color: white;
     border: 1px solid rgb(51, 51, 51);
     border-radius: 25%;
     margin-left: 15%;
@@ -180,6 +191,17 @@ Classes
 /***
 IDs
 ***/
+#Home {
+    background-color: rgb(97, 166, 235);
+}
+
+#about-sect {
+    background-color: rgb(173, 189, 209);
+}
+
+#experience-sect {
+    background-color: rgb(241, 234, 220);
+}
 
 #abouttext {
     margin: 0% 20%;
@@ -189,7 +211,7 @@ IDs
 #headshot {
     border-radius: 50%;
     display: block;
-    margin-top: 86px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -198,7 +220,7 @@ IDs
 }
 
 #greeting {
-    color: rgb(51, 51, 51);
+    color: white;
     font-size: 3em;
     margin: auto 5%;
 }
