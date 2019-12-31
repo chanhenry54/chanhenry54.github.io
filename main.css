@@ -164,7 +164,7 @@ Classes
     flex: none;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(244, 243, 244);
     border: 1px solid rgb(33, 37, 47);
     border-radius: 25%;
     margin-left: 15%;
@@ -208,7 +208,7 @@ IDs
 }
 
 #projects-sect {
-    background-color: #73A0D6;
+    background-color: #97D9EF;
 }
 
 #abouttext {
@@ -270,7 +270,7 @@ IDs
 }
 
 #footer {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(244, 243, 244);
     padding: 20px;
 }
 
