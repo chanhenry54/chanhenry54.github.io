@@ -12,13 +12,13 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ experience.position }}</h2>
+                        <h3>{{ experience.position }}</h3>
                         <hr class="star-primary">
-                        <h2>{{ experience.title }}</h2>
+                        <h3>{{ experience.title }}</h3>
                         {% if experience.project-date %}
                         <h4>{{ experience.project-date }}</h4>
                         {% endif %}
-                        <img src="img/experiences/{{ experience.img }}" class="img-centered modal-img" alt="{{ experience.alt }}" height="200">
+                        <img src="img/experiences/{{ experience.img }}" class="img-centered modal-img" alt="{{ experience.alt }}" height="150">
                         <div class="modal-text">
                             {{ experience.content }}
                         </div>
@@ -45,12 +45,12 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{ project.title }}</h2>
+                        <h3>{{ project.title }}</h3>
                         <hr class="star-primary">
                         {% if project.project-date %}
                         <h4>{{ project.project-date }}</h4>
                         {% endif %}
-                        <img src="img/projects/{{ project.img }}" class="img-centered modal-img" alt="{{ project.alt }}" height="200">
+                        <img src="img/projects/{{ project.img }}" class="img-centered modal-img" alt="{{ project.alt }}" height="150">
                         <div class="modal-text">
                             {{ project.content }}
                         </div>
