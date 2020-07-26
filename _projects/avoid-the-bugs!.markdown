@@ -14,4 +14,4 @@ project-date: August 2018
 ### What I used
 Python, Pygame, Git, Heroku
 
-[[Github](https://github.com/chanhenry54/avoidthebugs)]
+[[Github](https://github.com/chanhenry54/avoidthebugs){:target="_blank"}]

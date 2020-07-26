@@ -14,4 +14,4 @@ project-date: June 2020
 ### What I used
 JavaScript, React, Ant Design, HTML, CSS, Node.js, Git
 
-[[Github](https://github.com/chanhenry54/makecents)] [[Devpost](https://devpost.com/software/makes-cents)]
+[[Github](https://github.com/chanhenry54/makecents){:target="_blank"}] [[Devpost](https://devpost.com/software/makes-cents){:target="_blank"}]

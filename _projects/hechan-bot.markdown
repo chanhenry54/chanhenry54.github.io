@@ -14,4 +14,4 @@ project-date: July 2019
 ### What I used
 JavaScript, Node.js, Discord API, Mongoose/MongoDB, Riot Games API, Kayn library, Git, Heroku
 
-[[Github](https://github.com/chanhenry54/Hechan-Bot)]
+[[Github](https://github.com/chanhenry54/Hechan-Bot){:target="_blank"}]

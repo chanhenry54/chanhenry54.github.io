@@ -16,4 +16,4 @@ project-date: March 2020 - June 2020
 ### What I used
 JavaScript, React, React Bootstrap, HTML, CSS, Node.js, Git
 
-[[Github](https://github.com/chanhenry54/tag.it)]
+[[Github](https://github.com/chanhenry54/tag.it){:target="_blank"}]

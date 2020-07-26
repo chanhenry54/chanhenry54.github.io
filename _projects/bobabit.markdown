@@ -15,4 +15,4 @@ project-date: October 2018
 ### What I used
 Python, Pygame, Git, Heroku
 
-[[Github](https://github.com/chanhenry54/Bobabit)]
+[[Github](https://github.com/chanhenry54/Bobabit){:target="_blank"}]
