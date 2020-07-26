@@ -1,2 +1,76 @@
-title: "Henry Chan"
-description: "The personal website of Henry Chan, Computer Science student at the University of California, San Diego."
+# Site settings
+title: Henry Chan
+email: chanhenry54@gmail.com
+url: https://chanhenry54.github.io
+description: "Hi, I'm Henry, an aspiring software engineer who's enthusiastic about learning and determined to take on any challenge that comes my way. Welcome to my personal website!"
+keywords: "software, engineer, student, UCSD"
+skills: "Software Engineer - College Student - Avid Musician"
+meta_author: Chan Henry
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 449dd1 #80B3FF
+  primary-rgb: "68,157,209" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Henry Chan
+  location: Location
+  social: Contact
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/henry-c/
+  - title: github
+    url: https://github.com/chanhenry54
+  - title: envelope
+    url: mailto:chanhenry54@gmail.com
+  - title: facebook
+    url: https://www.facebook.com/henry.chan.1238292/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  experiences:
+    output: true
+  projects:
+    output: true
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
