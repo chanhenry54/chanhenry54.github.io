@@ -15,7 +15,7 @@
                         <h2>{{ experience.position }}</h2>
                         <hr class="star-primary">
                         <h2>{{ experience.title }}</h2>
-                        <img src="img/experiences/{{ experience.img }}" class="img-responsive img-centered" alt="{{ experience.alt }}">
+                        <img src="img/experiences/{{ experience.img }}" class="img-centered modal-img" alt="{{ experience.alt }}" height="200">
                         {% if experience.description %}
                         <p>{{ experience.description }}</p>
                         {% endif %}
@@ -64,7 +64,7 @@
                     <div class="modal-body">
                         <h2>{{ project.title }}</h2>
                         <hr class="star-primary">
-                        <img src="img/projects/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
+                        <img src="img/projects/{{ project.img }}" class="img-centered modal-img" alt="{{ project.alt }}" height="200">
                         {% if project.description %}
                         <p>{{ project.description }}</p>
                         {% endif %}
