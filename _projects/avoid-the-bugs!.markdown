@@ -4,5 +4,14 @@ modal-id: 1
 img: avoidthebugs.png
 alt: Avoid the Bugs Logo
 project-date: August 2018
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
+
+### What I did
+- Developed arcade-style jumping game based around avoiding programming bugs as a final project for the 2018 UCSD Summer Program for Incoming Students
+- Implemented the obstacle spawning rate and the obstacle acceleration over time mechanic, while also devising the general structure for the scoring system
+- Supervised playtesting of the game and significantly improved game responsiveness to players' movement and object collision
+
+### What I used
+Python, Pygame, Git, Heroku
+
+[[Github](https://github.com/chanhenry54/avoidthebugs)]

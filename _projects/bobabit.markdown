@@ -4,5 +4,15 @@ modal-id: 2
 img: bobabit.png
 alt: Bobabit Logo
 project-date: October 2018
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
+
+### What I did
+- Developed arcade game based around catching falling milk tea toppings in a cup as a project submission for SD Hacks 2018
+- Configured multiple key game mechanics (player controls, scoring system, object movement) through the use of conditional logic and game states
+- Illustrated all in-game sprites and half of the game art
+- Oversaw playtesting of the game and quickly resolved game-breaking bugs when they arose
+
+### What I used
+Python, Pygame, Git, Heroku
+
+[[Github](https://github.com/chanhenry54/Bobabit)]

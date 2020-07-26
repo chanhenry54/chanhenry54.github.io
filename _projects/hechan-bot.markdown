@@ -4,5 +4,14 @@ modal-id: 3
 img: hechanbot.png
 alt: Hechan Bot Logo
 project-date: July 2019
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
+
+### What I did
+- Developed chatbot for the Discord platform as a personal project to output a variety of messages to 900+ users through chat commands
+- Implemented multiple commands using MongoDB queries to store and request player data from the popular video game *League of Legends*
+- Configured text-based user interactions that listen for specific keywords in user text channels
+
+### What I used
+JavaScript, Node.js, Discord API, Mongoose/MongoDB, Riot Games API, Kayn library, Git, Heroku
+
+[[Github](https://github.com/chanhenry54/Hechan-Bot)]

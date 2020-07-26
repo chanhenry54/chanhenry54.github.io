@@ -5,5 +5,12 @@ img: servicenow.png
 alt: ServiceNow Logo
 position: Software Engineer Intern
 project-date: June 2020 - September 2020
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
+
+### What I did
+- Implemented multi-platform calendar integration for user appointment scheduling to assist remote IT support workflows
+- Designed and developed a new, sleeker scripting interface for the ServiceNow platform to improve user accessibility by 20%
+- Hosted team socials once a week to boost employee happiness and virtual social interaction during the remote COVID-19 situation
+
+### What I used
+JavaScript, React, AngularJS, ServiceNow APIs, HTML, CSS, Git

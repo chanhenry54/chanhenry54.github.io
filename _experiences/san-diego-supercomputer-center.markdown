@@ -5,5 +5,13 @@ img: sdsc.png
 alt: SDSC Logo
 position: Software Developer Intern
 project-date: October 2019 - June 2020
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
+
+### What I did
+- Redesigned a price estimator tool to provide customers with clearer cost breakdowns for 20 different research data services
+- Implemented new features and resolved application-breaking bugs for several internal workflow management tools to increase task accountability and communication between employees
+- Refactored 1000+ lines of code and wrote several pages of documentation for two large-scale projects to improve future readability and understanding by developers
+- Designed and developed a new website with multiple iterations in the span of 2 weeks to fit the needs of the SDSC-partnered GO FAIR US organization
+
+### What I used
+JavaScript, React, Node.js, jQuery, Python, PHP, MySQL, HTML, CSS, Jekyll, Git, Confluence
