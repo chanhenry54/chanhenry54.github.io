@@ -14,4 +14,4 @@ project-date: June 2020 - September 2020
 - Hosted team socials once a week to boost employee happiness and virtual social interaction during the remote COVID-19 situation
 
 ### What I used
-JavaScript, React, AngularJS, MySQL, HTML, CSS, Git, ServiceNow APIs, Microsoft Azure, ServiceNow APIs
+JavaScript, React, AngularJS, MySQL, HTML, CSS, Git, Microsoft Azure, Postman, ServiceNow APIs
