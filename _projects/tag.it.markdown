@@ -7,7 +7,7 @@ project-date: March 2020 - June 2020
 ---
 
 ### What I did
-- Developed a question-answer forum web application inspired by the Piazza platform as a UCSD CSE 110 course project
+- Developed a question-answer forum web application inspired by the Piazza platform as a UCSD Software Engineering course project
 - Coordinated front-end development while also maintaining a system requirements document and the team project board for task assignment as the software development lead
 - Implemented user authentication and collaborated with several teammates to establish routing between pages
 - Engineered key features and components for creating a class and adding staff

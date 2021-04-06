@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 1
 img: bobabit.png
 alt: Bobabit Logo
 project-date: October 2018
