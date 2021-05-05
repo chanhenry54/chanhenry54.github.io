@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(DMSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    color: gray;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.body {
+    grid-column: 2 / span 1;
+}
+
+.problem-stmt {
+    color: rgb(90, 90, 90);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.piazza-img {
+    height: 45vh;
+    width: 40vw;
+}
+
+.tech-img {
+    height: 40vh;
+    width: 40vw;
+}
+
+.tagit-img {
+    height: 50vh;
+    width: 40vw;
+}
