@@ -16,6 +16,14 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
 figure {
     margin: 0;
 }
@@ -37,6 +45,11 @@ figcaption {
     color: rgb(90, 90, 90);
     font-size: 1.5em;
     font-style: italic;
+}
+
+.tagit-logo-img {
+    height: 40vh;
+    width: 40vw;
 }
 
 .piazza-img {
