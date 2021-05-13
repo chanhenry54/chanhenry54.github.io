@@ -49,6 +49,10 @@ figcaption {
     flex-direction: column;
 }
 
+.quote {
+    font-size: 1.2em;
+}
+
 .parallax {
     background-image: url('img/watchlyoverview.png');
     width: 100%;

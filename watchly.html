@@ -6,58 +6,92 @@
 </head>
 <body id="page-top" class="index">
     <div class="grid">
-        <!-- <img src="img/watchlyoverview.png" class="head-img" /> -->
         <div class="parallax"></div>
         <div class="body">
             <h2>Overview</h2>
-            <p>Lorem ipsum</p>
+            <p>Imagine coming home after a long day and plopping yourself down on the couch to watch a movie. You open up Netflix on your TV or computer and you suddenly realize you have no idea what to watch. It’s the paradox of choice, since you have so many options to choose from, and yet, it’s because you have so many options that makes it difficult to choose a movie or TV show. Because of this, it can be very time consuming to scroll through all of your available options, and before you know it, it can be upwards to an hour before you finally make a decision. People can waste valuable time searching for new things to watch, waiting for friends’ recommendations, or researching watcher reviews.</p>
+            <p>This dilemma was the focus of a class project I undertook during the winter of my junior year in college, where I and a team of two other members tried tackling this issue. For my role, I took on most of the front-end development for interface components as well as facilitating some of the design process in terms of prototyping. Overall, we came up with an innovative mobile web application called <b>Watchly</b> designed to allow people who frequently watch TV shows and movies to organize their previously watched titles and share reviews and ratings of them with others.</p>
+
             <h2>The Challenge</h2>
-            <p>Lorem ipsum</p>
+            <p>As an avid movie and TV show watcher myself, I often found myself struggling to keep up with the things I’ve watched as well as potential shows/movies that others have watched that seemed interesting. Especially with the COVID-19 pandemic, movie theaters have shut down and many people have been confined to their homes with limited social interaction, now spending more time watching TV shows/movies on streaming platforms.</p>
+            <p>I began to think about ways in which I could make it easier for people to create ratings and recommendations for others, similar to platforms like Yelp, so that people could easily find new things to watch based on reviews from their trusted network of friends and family, similar to social media platforms like Instagram. This ideation process helped us focus on the problem we wanted to solve: <b>how can people sort through ratings and reviews in order to make informed and timely decisions about what TV shows and movies to watch?</b></p>
+
             <h2>Doing Our Research</h2>
-            <p>Lorem ipsum</p>
+            <p>To gain insight on the problem we were tackling, we wanted to get a better sense of how users felt when using streaming platforms, especially their thought process when trying to select titles to watch and any pain points they experienced. We also wanted to take into account any pre-existing platforms that could help inspire a potential solution.</p>
+
             <h3>Interviews: Gaining insight on the problem</h3>
+            <p>We chose to interview multiple users with varying degrees of enthusiasm for watching TV shows and movies, and here is some of the feedback we received from anonymous interviewees:</p>
             <div class="interview-grid">
                 <div class="persona">
                     <img src="img/persona1.png" class="persona-img" />
-                    <p>Lorem ipsum</p>
+                    <p class="quote">"It can be a little difficult trying to find out if a movie is good or not because there's just too many different online reviews." —Morgan</p>
                 </div>
                 <div class="persona">
                     <img src="img/persona2.png" class="persona-img" />
-                    <p>Lorem ipsum</p>
+                    <p class="quote">"I wish that I could easily I find out what my friends are watching, so I don't have to keep bugging them and waiting for their recommendations." —Terry</p>
                 </div>
             </div>
+
             <h3>Inspirations: Don't reinvent the wheel</h3>
-            <p>Lorem ipsum</p>
+            <p>Aside from user interviews helping us explore the problem further and figure out what issues needed to be addressed, we also wanted to research what types of platforms were already available that could aid us in crafting a solution for users, even if they weren't necessarily related to movies or TV shows.</p>
+            <ul>
+                <li>
+                    <p><b>IMDb: </b> IMDb is one of the most popular TV show and movie review websites, and it provides a substantial amount of information regarding the title’s information and reviews from critics, which is something users would want to be able to access. However, it doesn't have too many options in terms of letting users narrow down or compare titles.</p>
+                </li>
+                <li>
+                    <p><b>Instagram: </b>Instagram provides users with real-time updates from others in their network, which can be useful when users are trying to find movies or shows that their friends and family have been watching. On the downside, because the interface is so simple, there's not  much else the user can do.</p>
+                </li>
+                <li>
+                    <p><b>Yelp: </b>Yelp provides an organized interface for user reviews and ratings and prioritizes displaying helpful quality reviews over unhelpful ones, which will help in allowing users to make informed decisions about what shows or films to watch. Unfortunately, Yelp doesn't provide the most intuitive method of searching for reviews, nor does it allow for review discussions.</p>
+                </li>
+            </ul>
+
             <h2>Iterating, Iterating, and More Iterating</h2>
-            <p>Lorem ipsum</p>
+            <p>Over the duration of the class, we iterated continuously on our team's designs, progressing through stages of prototypes and making sure to constantly ask for feedback to improve and adapt to users' needs.</p>
+
             <h3>Storyboards</h3>
-            <p>Lorem ipsum</p>
+            <p>Early on during our design process, we wanted to visualize how we saw people using our potential solution. We drafted up several storyboards depicting projected use cases to further clarify the problem we wanted to solve as well as how we would accomplish this.</p>
             <figure>
                 <img src="img/storyboards.png" class="storyboard-img" />
                 <figcaption>Some of our early storyboards depicting potential use cases.</figcaption>
             </figure>
+
             <h3>Paper Prototypes</h3>
-            <p>Lorem ipsum</p>
+            <p>After laying down some of the groundwork for our project, it soon became time to start designing parts of the application interface. We drew some of the most important screens we felt we needed, and then added some pieces to represent some user interactions, such as key interface components and pop-up modals. These prototypes were especially useful in getting solid initial feedback from users during the first rounds of testing.</p>
             <figure>
                 <img src="img/paperproto.png" class="paper-img" />
                 <figcaption>Creating paper prototypes allowed us to figure out which user interactions were necessary for our app.</figcaption>
             </figure>
+
             <h3>Hi-Fidelity Prototypes</h3>
-            <p>Lorem ipsum</p>
+            <p>Once we solidified some of the aspects of our application that we wanted to keep and improved others based on feedback, we began to delve deeper into hi-fidelity prototypes. We cleaned up the aesthetic and the functionality of the application, since we needed to address three key goals from our initial user testing:</p>
+            <ol>
+                <li><p>Keep the interface clean and uncluttered.</p></li>
+                <li><p>Take into account any user slips or errors they might make.</p></li>
+                <li><p>Ensure a logical transition throughout user interactions.</p></li>
+            </ol>
+            <p>With these goals in mind, we set to work on enhancing the interface to be more minimalistic, and we made sure to include options such as the ability for users to go back or cancel wherever necessary. We also took into account the standards of social media apps such as Instagram and Facebook to ensure that user interactions would be logical and intuitive. Besides these goals, we also began to experiment a little with varying color palettes.</p>
             <figure>
                 <img src="img/figmaproto.png" class="figma-img" />
                 <figcaption>Based off of paper prototypes, we expanded on what we wanted our app to look like, emphasizing the social media feel.</figcaption>
             </figure>
+
             <h3>Testing</h3>
-            <p>Lorem ipsum</p>
+            <p>Before unveiling our product, we went through several rounds of testing to ensure that the target functionalities and goals we set for ourselves were accomplished, employing both ourselves and outside users to test the application. In the last couple weeks before launch, we scheduled tests with varying users on a weekly basis to seek improvement and feedback on features.</p>
+            <p>Especially with an application that was made complex due to the amount of thought and features put into emulating both a social media app as well as a content review platform, it would have been very easy to develop the app into something much more complicated than it needed to be, had we not continuously sought out feedback.</p>
+
             <h2>Final Result</h2>
-            <p>Lorem ipsum</p>
+            <p>The end product was something that we as a team were very proud of. We created a sleek and simple social media-based mobile web application that retrieved data about movies and TV shows from a backend API database, allowing users to easily showcase the titles they've watched and share their opinions.</p>
+            <p>The main feature of the app is being able to make and comment on posts about movie and TV show reviews, in order to promote social interactions while making recommendations. Some other key features of the app include being able to search for movies and TV shows and adding them to the user's personalized watchlist. The watchlist itself has searching and sorting capabilities as well as the ability to mark titles with ratings and favorite them. Lastly, the app allows for user profiles to build a network of friends and family and showcase all the titles that the user has watched or is currently watching.</p>
             <figure>
                 <img src="img/watchlyfinal.png" class="watchly-img" />
                 <figcaption>Some of the main screens for the app.</figcaption>
             </figure>
+
             <h2>Reflections</h2>
-            <p>Lorem ipsum</p>
+            <p>Overall, we discovered and delved into how modern streaming culture emphasises the amount of content available, but at the same time hinders people from being able to decide on what to watch. And at the end of the day, we created an innovative potential solution to this problem that is faced by so many people in today's society.</p>
+            <p>Throughout this project, we learned for the first time how to work through a formal design and testing process for creating an application. Admittedly, through many mistakes, we learned that there is a lot of work that goes into considering the specifications for a rating and review website or application. It was a challenge trying to maintain the simplicity and intuitiveness of a complex idea, and it was difficult finding methods to pull information about known movies and TV shows. However, I am glad that we were able to encounter such challenges and learn how to overcome them over multiple iterations and prototypes.</p>
+            <p>Going forward, we may choose to expand on <b>Watchly</b> in the future or pass it on to other developers. As for myself, I definitely learned the importance and effectiveness of good design and testing, and the lessons I've taken from working on this project will stick with me in my future endeavors while I grow as a software engineer.</p>
         </div>
     </div>
 </body>
