@@ -33,13 +33,6 @@ figcaption {
     grid-template-columns: 1fr 2fr 1fr;
 }
 
-.head-img {
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-    grid-column: 1 / span 3;
-}
-
 .body {
     grid-column: 2 / span 1;
 }
@@ -55,13 +48,18 @@ figcaption {
 
 .parallax {
     background-image: url('img/watchlyoverview.png');
-    width: 100%;
-    height: 100vh;
     grid-column: 1 / span 3;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+}
+
+.parallax img {
+    display: block;
+    visibility: hidden;
+    width: 90%;
+    height: auto;
 }
 
 .persona {
@@ -70,27 +68,32 @@ figcaption {
 }
 
 .persona-img {
-    height: 10vh;
+    height: auto;
     width: 10vh;
     margin: 1vw;
 }
 
 .storyboard-img {
-    height: 50vh;
+    height: auto;
     width: 50vw;
 }
 
 .paper-img {
-    height: 50vh;
+    height: auto;
     width: 50vw;
 }
 
 .figma-img {
-    height: 70vh;
+    height: auto;
     width: 50vw;
 }
 
 .watchly-img {
-    height: 50vh;
+    height: auto;
     width: 50vw;
+}
+
+.code-link {
+    font-style: italic;
+    color: gray;
 }

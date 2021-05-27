@@ -48,21 +48,26 @@ figcaption {
 }
 
 .tagit-logo-img {
-    height: 40vh;
+    height: auto;
     width: 40vw;
 }
 
 .piazza-img {
-    height: 45vh;
+    height: auto;
     width: 40vw;
 }
 
 .tech-img {
-    height: 40vh;
+    height: auto;
     width: 40vw;
 }
 
 .tagit-img {
-    height: 50vh;
+    height: auto;
     width: 40vw;
+}
+
+.code-link {
+    font-style: italic;
+    color: gray;
 }
