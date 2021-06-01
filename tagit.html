@@ -12,54 +12,52 @@
         <div class="body">
             <h1>Tag.it: A Piazza Redesign</h1>
             <h3>Innovating a cleaner and more intuitive interface for the widely-used Piazza forum platform</h3>
-            <p>Piazza is a platform used widely by school courses for students to ask questions in a forum-style format where they can receive help from instructors and other students.</p>
-            <p>During my second year of college, I was the front-end software development lead for a class project aimed at redesigning the Piazza interface to be more intuitive and sleeker.</p>
             <img src="img/tagit-logo.png" class="tagit-logo-img" />
 
-            <h2>The Problem</h2>
+            <h2>The Challenge</h2>
             <p class="problem-stmt">Students and instructors need to have an intuitive way of centralizing course information and discussion to effectively communicate with each other and progress through the class.</p>
 
             <h3>Some background</h3>
             <p>During my time at college, I noticed that a lot of classes frequently use platforms such as Piazza to communicate important course information as well as serve as a hub for student questions and answers. These platforms greatly shorten the amount of time it takes for students to receive help on assignments and provide a means of deepening their understanding of course material through engaging discussions.</p>
-            <p>However, several of my fellow classmates and I came to agreement that the interface for the Piazza platform was <b>inflexible</b>, <b>unaesthetic</b>, and fairly <b>unintuitive</b>. This could be a major issue for many students as well as instructors, especially those who teach large class sizes, since a poorly-designed interface could impede the communication between them, leading to a slew of other potential hindrances and problems.</p>
-            <p>There was a lot that could be improved upon in terms of the site's design, and thus, we as a team of 10 decided to engineer an innovative full-stack web application to address these issues.</p>
+            <p>However, several of my fellow classmates and I came to agreement that the interface for the Piazza platform was <b>inflexible</b>, <b>unaesthetic</b>, and fairly <b>unintuitive</b>. This could be a major issue for many students as well as instructors, especially those who teach large class sizes, since a poorly-designed interface could impede the communication between them.</p>
+            <p>There was a lot that could be improved upon in terms of the site's design, and thus, during my second year of college, I was the front-end software development lead for a class project aimed at redesigning the Piazza interface to be more intuitive and sleeker.</p>
 
             <h2>User Research</h2>
             <p>Before we came up with our application and started development, we wanted to explore whether or not other students felt the same lack of intuitiveness from Piazza that our team did. We also wanted to hone in on specific aspects of the interface that could be improved or revised, so we spent some time researching those as well.</p>
 
-            <h3>Current Piazza users</h3>
-            <p>In order to understand how other users felt about Piazza, we sent out a survey to a large audience of college students at UC San Diego. In this survey, we asked users various questions regarding the Piazza platform, and many of them pointed out that while the platform was useful, they had a couple of complaints regarding the interface.</p>
-            <p>In regards to the complaints they had with Piazza, some users claimed that the searching capabilities were less than optimal, often not being able to match searched keywords with the proper posts. Other users mentioned wanting more options to filter through posts instead of having to scroll through all of them to find the answers they were looking for. Additionally, a recurring qualm with the site was the unappealing aesthetic with small fonts and inflexible color options.</p>
-
             <h3>Overall pain points</h3>
-            <p>From our survey, as well as reaching out to a few professors with similar questions, we discovered several main pain points with Piazza:</p>
+            <p>From sending out a survey to a large number of students and a few professors, we discovered several main pain points with Piazza:</p>
             <ul>
                 <li>
-                    <p><b>Filtering and searching for posts can be buggy and inflexible </b>— it can be difficult to find specific posts even with exact keywords since the search bar sometimes provides incorrect results, and filtering by folders does not allow additional searching or filtering by multiple folders.</p>
+                    <p><b>Filtering and searching for posts can be buggy and inflexible </b>— it can be difficult to find specific posts even with exact keywords, and filtering does not allow multiple parameters.</p>
                 </li>
                 <li>
-                    <p><b>The interface lacks a cohesive aesthetic </b>— many of the fonts are too small, resulting in some components going unnoticed, and the current color options are limited and sometimes result in glitched contrasting colors.</p>
+                    <p><b>The interface lacks a cohesive aesthetic </b>— many of the fonts are too small, and the current color options are limited and sometimes result in glitches.</p>
                 </li>
                 <li>
-                    <p><b>Many interface components are unintuitive or unbeknownst to users </b>— some features such as the reading list and post history slider are somewhat awkward to users who haven't used them before, and other features such as the company search and resume profile go entirely unused.</p>
+                    <p><b>Many interface components are unintuitive or unbeknownst to users </b>— some features are somewhat awkward to users who haven't used them before, and other features go entirely unused.</p>
                 </li>
             </ul>
             <figure>
                 <img src="img/piazza.png" class="piazza-img" />
-                <figcaption>The current Piazza website doesn't have the best interface.</figcaption>
+                <figcaption>The current Piazza website doesn't have the best interface as seen by the issues pointed out above.</figcaption>
             </figure>
 
             <h2>The Solution</h2>
-            <p>After consolidating our research and figuring out the main pain points that we had to address, we finally decided to settle on creating a full-stack web application aimed to showcase a potential redesign of Piazza. Our goal was to make sure that the application was slimmer both in terms of aesthetic and functionality to ensure that users would have a pleasant and uncluttered experience.</p>
-            <p>In order to differentiate our application from Piazza, we chose to focus on improving the searching and filtering functionalities, which were the major complaints with the latter. To do so, we framed the design of our app around a tagging system which would allow users to label their posts with tags and find posts based on those tags. This tagging system became our key feature, inspiring the name of our app, <b>Tag.it</b>.</p>
+            <p>After consolidating our research, we finally decided to settle on creating a full-stack web application aimed to showcase a potential redesign of Piazza. Our goal was to make sure that the application was slimmer both in terms of aesthetic and functionality to ensure that users would have a pleasant and uncluttered experience.</p>
+            <p>In order to differentiate our application from Piazza, we chose to focus on improving the searching and filtering functionalities. To do so, we framed the design of our app around a tagging system which would allow users to label their posts with tags and find posts based on those tags. This tagging system became our key feature, inspiring the name of our app, <b>Tag.it</b>.</p>
 
             <h3>Things to keep in mind</h3>
             <p>In creating our solution, however, we also needed to keep in mind several ideas that came up during initial planning.</p>
             <ul>
-                <li><p>We didn't want to create an entirely different interface because we felt that Piazza's Q&A forum style was already pretty useful, so we didn't see the need to change the site's underlying interaction format.</p></li>
-                <li><p>One of the purposes of our application was to make the aesthetic cleaner, so we needed to make sure that text and interface components were easy to see and uncluttered throughout the whole development process.</p></li>
-                <li><p>Before we started developing, we created several design documents, such as a list of use cases and user stories, to help guide our thoughts when creating our application and ensure that our application was meeting the goals we set for ourselves.</p></li>
+                <li><p>We didn't want to create an entirely different interface because we felt that Piazza's Q&A forum style was already pretty useful.</p></li>
+                <li><p>We needed to make sure that text and interface components were easy to see and uncluttered throughout the whole development process.</p></li>
+                <li><p>Before we started developing, we created several design documents, such as a list of use cases and user stories, to help guide our thoughts and ensure that our application was meeting the goals we set for ourselves.</p></li>
             </ul>
+            <figure>
+                <img src="img/tagitproto.png" class="proto-img" />
+                <figcaption>Early paper prototype of the main Tag.it interface.</figcaption>
+            </figure>
 
             <h2>Tech-ing It Up a Notch</h2>
             <p>As a project for a software engineering class, <b>Tag.it</b> was developed with a very programming-centric mindset, employing the use of many different technologies and practices commonly found in the software engineering industry. We split up work into two main areas of focus, front-end and back-end development.</p>
@@ -74,16 +72,10 @@
             </figure>
 
             <h3>How we implemented our site</h3>
-            <p>In regards to work management, we utilized agile software development practices to divide work by person, separating tasks into granular user stories to ensure that we iterated rapidly and constantly built upon our app to make solid progress. At the same time, we kept track of progress using our design documents to figure out a timeline for when each component needed to be completed by.</p>
-            <p>Week by week, we slowly built up our site, first wireframing all of our application's screens, then adding onto them with smaller interface components to handle the required user interactions. As we were building more and more front-end components, we also connected them to the back-end API endpoints we built at the same time to finalize functionalities. Lastly, we fine-tuned our initial database schemas to streamline database requests and lessen the amount of time needed to load data and information on application pages, especially in regards to posts.</p>
+            <p>Week by week, we slowly built up our site, first wireframing all of our application's screens, then adding onto them with smaller interface components to handle required user interactions. As we were building front-end components, we also connected them to the back-end API endpoints we developed to finalize functionalities. Lastly, we fine-tuned our initial database schemas to streamline the loading of data, especially in regards to posts.</p>
 
             <h3>Testing</h3>
-            <p>Throughout our development process, we frequently tested features to ensure that they worked as the project continued to be built. We did this through the Mocha and Chai testing frameworks to create test suites and assertions to check for initial errors, and then we had members of our team rotate to test development versions of the app as components were added.</p>
-            <p>Once we had a fully functional application and were almost ready to deploy to production, we spent a week on user testing to squash any remaining bugs, checking off all the test cases we wrote on a design document. Additionally, we allowed some external user testers play around with the app to see if they had any feedback on features that needed to be tweaked or improved upon.</p>
-
-            <h3>Challenges we faced</h3>
-            <p>During development, we faced a couple of challenges, mostly in regards to logistics and underestimation of technical difficulties.One challenge was figuring out which features to include or cut, since our initial brainstorm brought forth more ideas than were available to implement in the scope and timeframe of our project. Luckily, we were able to come to agreement on the features we deemed most important.</p>
-            <p>Another challenge we faced was communication, especially since the project was developed in a remote setting at the beginning of the COVID-19 pandemic. We initially had trouble communicating when certain application components were done, since some were dependent on others, but eventually we were able to resolve this issue with higher-quality status updates during meetings and the use of a project board to keep track of tasks.</p>
+            <p>Throughout our development process, we frequently tested features to ensure that they worked as the project continued to be built and components were added. Once we were almost ready to deploy to production, we spent a week on user testing to squash any remaining bugs. Additionally, we allowed some external user testers play around with the app to see if they had any feedback on features that needed to be tweaked or improved upon.</p>
 
             <h2>The Final Product</h2>
             <p>After 10 weeks of hard work, we created a fully functional web application that worked similarly to Piazza, albeit with a cleaner aesthetic and more flexibility in terms of post interactions, especially searching and filtering by tags. Some of the features we included were:</p>

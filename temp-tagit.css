@@ -57,6 +57,11 @@ figcaption {
     width: 40vw;
 }
 
+.proto-img {
+    height: auto;
+    width: 40vw;
+}
+
 .tech-img {
     height: auto;
     width: 40vw;
