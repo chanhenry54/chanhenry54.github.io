@@ -8,6 +8,7 @@ project-date: October 2019 - June 2020, September 2020 - Present
 ---
 
 ### What I did
+
 - Directs a team of 8 engineering interns as a product owner to enhance and develop new workflows for a cloud project services tool using Python and Angular
 - Deploys new Python scripts to export MySQL financial data on 100+ customers to internal management applications
 - Redesigned a price estimator tool to provide customers with clearer cost breakdowns for 20 different research data services
@@ -16,4 +17,5 @@ project-date: October 2019 - June 2020, September 2020 - Present
 - Designed and developed a new website with multiple iterations in the span of 2 weeks to fit the needs of the SDSC-partnered GO FAIR US organization
 
 ### What I used
+
 JavaScript, React, Node.js, jQuery, Python, Angular, PHP, MySQL, HTML, CSS, Jekyll, Git, Confluence
