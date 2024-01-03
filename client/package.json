@@ -16,7 +16,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://chanhenry54.github.io",
+  "homepage": "http://chanhenry54.github.io/chanhenry54.github.io",
   "scripts": {
     "start": "react-scripts start",
     "predeploy" : "npm run build",
