@@ -1,1 +1,1 @@
-My Website, created using the Freelancer Jekyll theme
+My Website, created using React and TypeScript
